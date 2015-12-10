@@ -1,0 +1,86 @@
+New log file opened at Thu Dec 10 14:55:00 CST 2015 by 1281@china-015deiMac.local
+Taking next connection to: 64257
+New client attempting to connect on port: 64259-64257
+  Address = /172.28.3.58:64257
+This client on port 64259 has uuid d98b2ed3-d6c9-468a-8063-47ac136bf4a7 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-d98b2ed3-d6c9-468a-8063-47ac136bf4a7
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+New client attempting to connect on port: 64594-64257
+  Address = /172.28.3.58:64257
+Handshake exception on socket: 64594
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 64257
+New client attempting to connect on port: 64595-64257
+  Address = /172.28.3.58:64257
+This client on port 64595 has uuid a6061103-ff25-478a-aa84-4c249596bfed configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-d98b2ed3-d6c9-468a-8063-47ac136bf4a7, play-fork-run-a6061103-ff25-478a-aa84-4c249596bfed
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64257
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+1 daemon clients are connected.
+Server socket thread exiting.
+1 clients open, will close them...
+All client sockets have been closed.
+Closing the 1281@china-015deiMac.local logs at Thu Dec 10 15:54:55 CST 2015, goodbye.
